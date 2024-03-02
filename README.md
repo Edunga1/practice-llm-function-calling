@@ -29,7 +29,7 @@ $ docker exec -it ollama ollama create example -f /root/llama2/Modelfile
 4. Test the model
 
 ```bash
-$ curl http://localhost:11434/api/chat -d '{
+$ curl http://localhost:11434/api/generate -d '{
   "model": "example",
   "prompt": "Why is the sky blue?"
 }'
