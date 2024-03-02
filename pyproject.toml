@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llama-2-7b-chat-hf-function-calling-v2"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
